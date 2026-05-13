@@ -1,0 +1,32 @@
+/* =========================
+FILE: style.css
+========================= */
+
+body{
+  font-family:'Poppins', sans-serif;
+  background:#f8f9fa;
+  color:#222;
+}
+
+.hero-section{
+  min-height:80vh;
+  display:flex;
+  align-items:center;
+}
+
+.card img{
+  height:250px;
+  object-fit:cover;
+}
+
+footer a{
+  text-decoration:none;
+}
+
+footer a:hover{
+  color:#ccc;
+}
+
+.carousel-item{
+  min-height:250px;
+}
